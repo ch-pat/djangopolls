@@ -1,2 +1,6 @@
-*/__pycache__/*
-
+mysite/__pycache__/
+polls/migrations/__pycache__
+polls/__pycache__
+.vscode
+venv/
+pyvenv.cfg
