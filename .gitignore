@@ -4,3 +4,4 @@ polls/__pycache__
 .vscode
 venv/
 pyvenv.cfg
+db.sqlite3
