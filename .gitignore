@@ -5,3 +5,5 @@ polls/__pycache__
 venv/
 pyvenv.cfg
 db.sqlite3
+packaged-polls/dist/*
+packaged-polls/django_polls.egg-info/*

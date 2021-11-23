@@ -1,0 +1,16 @@
+This directory contains a template for packaging the polls app
+
+Once you have the following files:
+- LICENSE
+- MANIFEST.in
+- README.rst
+- setup.cfg
+- setup.py
+- polls directory with the polls application inside
+
+you can run `python setup.py sdist` to create a tar file under a directory dist
+
+Using the packaged app in another project:
+
+This tar file can then be installed to a virtualenv with `pip install path/to/tar/file`
+To make your django project 'aware' of the newly installed app, follow instructions in the README.rst file.
